@@ -1,24 +1,15 @@
-# movie-app
+# Map Project Using TomTom API with Vue.js
 
-## Project setup
-```
-npm install
-```
+In this project my aim was creating movie project. I used Vue.js, TypeScript and Vuex.
+<br>
+<br>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Installation
 
-### Compiles and minifies for production
-```
-npm run build
-```
+---
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Step 1: You need to run &nbsp; `npm install`
+- Step 2: Then create a [TheMovieDB API Key.](https://developers.themoviedb.org/3/getting-started/introduction)
+- Step 3: After get your api key. Create a `.env` file, under your root folder. Inside this file define variable
+  `I.E: VUE_APP_MOVIES_API_KEY = YOUR_API_KEY`
+- Step 4: After these step, you can start your application with `npm run serve` command.
